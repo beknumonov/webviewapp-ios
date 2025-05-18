@@ -1,14 +1,19 @@
 //
-//  webviewapp_iosApp.swift
+//  WebViewApp.swift
 //  webviewapp_ios
 //
 //  Created by Sardorbek Numonov on 5/18/25.
 //
 
-import SwiftUI
 
+import SwiftUI
+import WebKit
+import PhotosUI
+import AVFoundation
+
+// MARK: - Main App Entry Point
 @main
-struct webviewapp_iosApp: App {
+struct WebViewApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

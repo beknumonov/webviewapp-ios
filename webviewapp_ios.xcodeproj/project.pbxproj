@@ -29,9 +29,39 @@
 		5910FF2E2DD9C7470053C3F8 /* webviewapp_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webviewapp_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5910FF512DD9C7C60053C3F8 /* Exceptions for "webviewapp_ios" folder in "webviewapp_ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ImageHandling/CameraPicker.swift,
+				ImageHandling/LegacyImagePicker.swift,
+				ImageHandling/PhotoLibraryPicker.swift,
+				Managers/PermissionManager.swift,
+			);
+			target = 5910FF162DD9C7460053C3F8 /* webviewapp_ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		5910FF522DD9C7CF0053C3F8 /* Exceptions for "webviewapp_ios" folder in "Copy Bundle Resources" phase from "webviewapp_ios" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 5910FF152DD9C7460053C3F8 /* Resources */;
+			membershipExceptions = (
+				ImageHandling/CameraPicker.swift,
+				ImageHandling/LegacyImagePicker.swift,
+				ImageHandling/PhotoLibraryPicker.swift,
+				Managers/PermissionManager.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5910FF192DD9C7460053C3F8 /* webviewapp_ios */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5910FF512DD9C7C60053C3F8 /* Exceptions for "webviewapp_ios" folder in "webviewapp_ios" target */,
+				5910FF522DD9C7CF0053C3F8 /* Exceptions for "webviewapp_ios" folder in "Copy Bundle Resources" phase from "webviewapp_ios" target */,
+			);
 			path = webviewapp_ios;
 			sourceTree = "<group>";
 		};
